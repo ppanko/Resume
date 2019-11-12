@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+% Document margins
+\usepackage{color,hyperref}
+\usepackage{fontawesome}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\hypersetup{colorlinks,breaklinks,linkcolor=darkblue,urlcolor=darkblue,anchorcolor=darkblue,citecolor=darkblue}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Pavel Panko} % Your name
+\address{Lubbock, TX} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary
+%addess (optional)
+
+\address{pavel.panko@ttu.edu
+  \\ \faGithub \space \href{http://www.github.com/ppanko}{ppanko}
+  \\ \faLinkedin \space \href{http://linkedin.com/in/pavel-panko-b43234114}{pavel-panko}} % Your phone number and email
+
+\makeatletter
+\def \printname {
+  \begingroup
+    \hfil{\namesize\bfseries \@name}\hfil
+    \nameskip\break
+  \endgroup
+}
+\makeatother
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Texas Tech University} \hfill {\bf Lubbock, TX}
+\\ Doctor of Philosophy, Educational Psychology (Quantitative Methods)
+\hfill May, 2020 \\ 
+Master of Education, Educational Psychology (Quantitative Methods)
+\hfill August, 2016
+\\
+\\{\bf Texas Tech University, Rawls College of Business} \hfill {\bf
+  Lubbock, TX}
+\\ Master of Science, Data Science \hfill May, 2020
+\\
+\\{\bf University of Kansas} \hfill {\bf Lawrence, KS}
+\\Bachelor of Arts, Psychology (Minor in Social and Behavioral
+Sciences Methodology) \hfill May, 2014
+
+\end{rSection}
+
+\begin{rSection}{Professional Qualifications}
+  \begin{enumerate}
+  \item[$\bullet$] Over seven years experience working in data
+    analysis with a specialization in statistical
+    programming. Passionate about open source statistical software, simulation experiments and
+    high-performance computing.
+  \item[$\bullet$] Applied research experience demonstrated by high-level published research articles \& reports in a
+    variety of areas such as medicine, education, psychiatry, and statistics.
+  \item[$\bullet$] Leadership experience garnered over five years of
+    coordinating teams of researchers and scientists in academic,
+    private, and government settings.
+  \item[$\bullet$] Teaching experience in statistical methods as a
+    technical trainer, consultant, and classroom instructor for
+    both Graduate and Undergraduate students.
+  \end{enumerate}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Programming \& Scripting & R, Python, BASH, git, C++, SQL, elisp \\
+    Data Analysis \ & Mplus, SAS, LISREL \\
+    Document Preparation \& Text Editing & \LaTeX, Markdown, Emacs,
+                                           Microsoft Office \\
+    Operating Systems & Arch Linux, Ubuntu, Fedora, Linux Mint \\ 
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+  \begin{rSubsection}{Institute for Measurement, Methodology, Analysis,
+      \& Policy}{September 2014 - Present}{Senior Quantitative Analyst}{}
+  \item Conducted advanced statistical analysis to test a variety of research hypotheses.
+  \item Developed software in R to assist in data analysis for both clients and internal research teams.
+  \item Guided clients in developing a data-driven narrative to answer
+    extant research questions.
+  \end{rSubsection}
+  \begin{rSubsection}{Stats Camp}{June 2012 - Present}{Statistical
+      Consultant}{}
+  \item Instructed Stats Camp attendees in cutting-edge research methodology.
+  \item Assisted attendees in applying newly-acquired methods to their research.
+  \item Collaborated with Stats Camp instructors to publish novel research
+    ideas.
+  \end{rSubsection}
+  \begin{rSubsection}{Center for Research Methods \& Data
+      Analysis}{September 2012 - May, 2014}{Research Analyst}{}
+  \item Analyzed large-scale national data sets using regression and structural equation modeling.
+  \item Conducted simulation experiments in multilevel modeling.
+  \item Coordinated statistical consulting sessions.
+  \end{rSubsection}
+
+\end{rSection}
+
+\end{document}
